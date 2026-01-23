@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router_practice/layout/default_layout.dart';
 
-class OneScreen extends StatelessWidget {
-  const OneScreen({super.key});
+class TwoScreen extends StatelessWidget {
+  const TwoScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
