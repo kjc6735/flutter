@@ -143,7 +143,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   Text('계정이 없으신가요?', style: TextStyle(color: Colors.grey[600])),
                   TextButton(
                     onPressed: () {
-                      context.push('/login/register');
+                      context.push('/register');
                     },
                     child: const Text(
                       '회원가입',
